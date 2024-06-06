@@ -1,0 +1,7 @@
+export {
+    ATTRIBUTE_HTMLLOAD,
+    SELECTOR_HTMLLOAD
+}
+
+const ATTRIBUTE_HTMLLOAD = "js-html-load";
+const SELECTOR_HTMLLOAD = `[${ATTRIBUTE_HTMLLOAD}]`
