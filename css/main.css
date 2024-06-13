@@ -9,7 +9,7 @@
 }
 
 .bg-fabric {
-    background-image: linear-gradient(#00000000,#000000), url("/assets/fabric-black-landscape.jpg");
+    background-image: linear-gradient(#00000000,#000000), url("/assets/fabric-black-landscape.webp");
 }
 
 .navbar {
@@ -27,4 +27,8 @@ section:nth-child(odd) {
 
 #galleryViewMore {
     cursor: pointer;
+}
+
+footer nav a {
+    margin-right: 15px;
 }

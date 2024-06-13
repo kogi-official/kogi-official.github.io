@@ -59,7 +59,3 @@ function SetupGallery() {
         ActionViewMoreGallery();
     });
 }
-
-function SetupShouldShowGalleryViewMore() {
-
-}
