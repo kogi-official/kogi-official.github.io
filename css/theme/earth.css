@@ -1,0 +1,5 @@
+:root {
+    --bs-light: #e3e1da;
+    --bs-light-rgb: rgba(#{to-rgb(var(--bs-light))});
+    --bs-body-bg: var(--bs-light);
+}
