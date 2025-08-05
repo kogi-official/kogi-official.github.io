@@ -2,7 +2,7 @@ export {
     RouteAsync
 }
 
-import { SetupNavbarShowAfterScroll, SetupGallery } from "/js/setup.js";
+import { SetupNavbarShowAfterScroll, SetupGallery, SetupBackgroundProgressiveImage } from "/js/setup.js";
 
 async function RouteAsync(path, params) {
     let route = FindMatchingRoute(path, params);
@@ -27,5 +27,6 @@ routes.push({path:"/index",handler:RouteHome});
 routes.push({path:"/index.html",handler:RouteHome});
 function RouteHome(params) {
     SetupNavbarShowAfterScroll();
+    SetupBackgroundProgressiveImage();
     SetupGallery();
 }

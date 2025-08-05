@@ -9,7 +9,8 @@
 }
 
 .bg-fabric {
-    background-image: linear-gradient(#00000000,80%,#000000), url("/assets/fabric-black-landscape.webp");
+    background-image: linear-gradient(#00000000,80%,#000000), url("/assets/fabric-black-landscape-thumb.webp");
+    transition: background-image 0.5s ease-in-out;
 }
 
 .navbar {
